@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    magin-top: 200px;
+    display: flex;
+    align-items: center;
+    background-image: url('second-white.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.img-container {
+    width: 50%;
+    max-width: 200px;
+    height: 250px;
+    margin-bottom: 45px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    box-shadow: -4px -4px blue;
+    obect-fit: cover;
+    borde: 3px solid 
+    borderradius: 7px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.homepage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 1px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+ }
+ 
+ @media (min-width: 1000px) {
+     .homepage {
+         flex-direction: row;
+         column-gap: 80px;
+         text-align: left;
+         justify-content: center;
+     }
+     
+     p {
+         font-size: 30px;
+     }
+     
+     .img-container {
+         width: 50%;
+         max-width: 270px;
+         height: 350px;
+         margin-bottom: 45px;
+     }
+     
+     button {
+         font-size: 25px;
+         font-weight: 400;
+     }
+ }
